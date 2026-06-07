@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MixxxControllerPreset mixxxVersion="2.3+" schemaVersion="1">
+    <info>
+        <name>vkcontrol</name>
+        <author>Vlusky</author>
+        <description>Custom TouchOSC interface made by and for Vlusky.</description>
+    </info>
+    <controller id="vkcontrol">
+        <scriptfiles>
+            <file functionprefix="vkcontrol" filename="vkcontrol.js"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <description>Deck 1, play</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, cue</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, sync</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, pfl</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, nudge_left</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, nudge_right</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, transpose_up</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, transpose_down</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x08</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, match_key</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x09</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, reset_qfx</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x0A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, reset_eq</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x0B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue1</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x0C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue2</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x0D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue3</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x0E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue4</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x0F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue5</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x10</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue6</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x11</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue7</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x12</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, hotcue8</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x13</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, loop_halve</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x14</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, loop_double</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x15</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, loop_toggle</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x16</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatloop_4</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x17</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatloop_8</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x18</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatloop_16</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x19</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatloop_32</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x1A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_1_back</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x1B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_2_back</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x1C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_4_back</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x1D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_8_back</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x1E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_1_forward</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x1F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_2_forward</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x20</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_4_forward</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x21</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, beatjump_8_forward</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x22</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, route_fx1</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x23</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, route_fx2</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x24</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, route_fx3</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x25</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, route_fx4</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x26</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, volume</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, tempo</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, pregain</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, eq_lo</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, eq_mid</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x68</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, eq_hi</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x69</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 1, qfx</description>
+                <group>[Channel1]</group>
+                <status>0xB0</status>
+                <midino>0x6A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, play</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, cue</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, sync</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, pfl</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, nudge_left</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, nudge_right</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, transpose_up</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, transpose_down</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x08</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, match_key</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x09</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, reset_qfx</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x0A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, reset_eq</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x0B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue1</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x0C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue2</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x0D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue3</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x0E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue4</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x0F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue5</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x10</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue6</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x11</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue7</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x12</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, hotcue8</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x13</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, loop_halve</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x14</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, loop_double</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x15</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, loop_toggle</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x16</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatloop_4</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x17</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatloop_8</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x18</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatloop_16</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x19</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatloop_32</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x1A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_1_back</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x1B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_2_back</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x1C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_4_back</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x1D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_8_back</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x1E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_1_forward</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x1F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_2_forward</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x20</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_4_forward</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x21</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, beatjump_8_forward</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x22</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, route_fx1</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x23</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, route_fx2</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x24</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, route_fx3</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x25</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, route_fx4</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x26</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, volume</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, tempo</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, pregain</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, eq_lo</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, eq_mid</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x68</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, eq_hi</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x69</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 2, qfx</description>
+                <group>[Channel2]</group>
+                <status>0xB1</status>
+                <midino>0x6A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, play</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, cue</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, sync</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, pfl</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, nudge_left</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, nudge_right</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, transpose_up</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, transpose_down</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x08</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, match_key</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x09</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, reset_qfx</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x0A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, reset_eq</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x0B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue1</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x0C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue2</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x0D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue3</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x0E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue4</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x0F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue5</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x10</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue6</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x11</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue7</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x12</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, hotcue8</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x13</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, loop_halve</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x14</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, loop_double</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x15</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, loop_toggle</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x16</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatloop_4</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x17</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatloop_8</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x18</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatloop_16</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x19</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatloop_32</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x1A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_1_back</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x1B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_2_back</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x1C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_4_back</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x1D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_8_back</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x1E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_1_forward</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x1F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_2_forward</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x20</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_4_forward</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x21</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, beatjump_8_forward</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x22</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, route_fx1</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x23</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, route_fx2</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x24</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, route_fx3</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x25</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, route_fx4</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x26</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, volume</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, tempo</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, pregain</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, eq_lo</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, eq_mid</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x68</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, eq_hi</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x69</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 3, qfx</description>
+                <group>[Channel3]</group>
+                <status>0xB2</status>
+                <midino>0x6A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, play</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, cue</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, sync</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, pfl</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, nudge_left</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, nudge_right</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, transpose_up</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, transpose_down</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x08</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, match_key</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x09</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, reset_qfx</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x0A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, reset_eq</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x0B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue1</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x0C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue2</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x0D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue3</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x0E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue4</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x0F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue5</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x10</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue6</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x11</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue7</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x12</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, hotcue8</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x13</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, loop_halve</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x14</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, loop_double</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x15</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, loop_toggle</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x16</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatloop_4</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x17</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatloop_8</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x18</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatloop_16</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x19</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatloop_32</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x1A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_1_back</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x1B</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_2_back</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x1C</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_4_back</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x1D</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_8_back</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x1E</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_1_forward</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x1F</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_2_forward</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x20</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_4_forward</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x21</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, beatjump_8_forward</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x22</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, route_fx1</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x23</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, route_fx2</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x24</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, route_fx3</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x25</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, route_fx4</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x26</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, volume</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, tempo</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, pregain</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, eq_lo</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, eq_mid</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x68</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, eq_hi</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x69</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Deck 4, qfx</description>
+                <group>[Channel4]</group>
+                <status>0xB3</status>
+                <midino>0x6A</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Active Page, effects</description>
+                <group>[Master]</group>
+                <status>0xB9</status>
+                <midino>0x00</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Active Page, main</description>
+                <group>[Master]</group>
+                <status>0xB9</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Active Page, browse</description>
+                <group>[Master]</group>
+                <status>0xB9</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Master Section, shift</description>
+                <group>[Master]</group>
+                <status>0xBC</status>
+                <midino>0x00</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Master Section, headphone_gain</description>
+                <group>[Master]</group>
+                <status>0xBC</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Master Section, headphone_mix</description>
+                <group>[Master]</group>
+                <status>0xBC</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Master Section, crossfader</description>
+                <group>[Master]</group>
+                <status>0xBC</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Master Section, master_gain</description>
+                <group>[Master]</group>
+                <status>0xBC</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx1_on</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x00</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx2_on</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx3_on</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx1_next</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx2_next</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx3_next</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx1_prev</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx2_prev</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx3_prev</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x08</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, depth</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx1_meta</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx2_meta</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 1/3, fx3_meta</description>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <status>0xBA</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx1_on</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x00</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx2_on</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx3_on</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx1_next</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx2_next</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx3_next</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx1_prev</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx2_prev</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx3_prev</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x08</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, depth</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx1_meta</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx2_meta</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x66</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>FX Unit 2/4, fx3_meta</description>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <status>0xBB</status>
+                <midino>0x67</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, browse_up</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x00</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, browse_down</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x01</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, browse_up_fast</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x02</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, browse_down_fast</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x03</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, load_deck1</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x04</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, load_deck2</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x05</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, toggle_focus</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x06</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, preview_play</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x07</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, preview_scrub</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x64</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <description>Browse System, swipe_scroll</description>
+                <group>[Library]</group>
+                <status>0xBF</status>
+                <midino>0x65</midino>
+                <key>vkcontrol.onCCEvent</key>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+        </controls>
+    </controller>
+</MixxxControllerPreset>
