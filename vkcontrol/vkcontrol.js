@@ -393,7 +393,7 @@ vkcontrol.incomingButton = function(channel, cc, value) {
                 var isForward = lookup.target.indexOf("forward") !== -1;
                 var directionSuffix = isForward ? "_forward" : "_backward";
 
-                // 9th character, the numbar.
+                // 9th character, the number.
                 var baseBeats = parseInt(lookup.target.charAt(9), 10);
                 var finalBeats = vkcontrol.isShiftPressed ? (baseBeats * 4) : baseBeats;
                 print("beatjump_" + finalBeats + directionSuffix)
@@ -401,7 +401,6 @@ vkcontrol.incomingButton = function(channel, cc, value) {
             }
             break;
 
-        // --- EFFECTS CONTROL --
         case "route_fx1": case "route_fx2": case "route_fx3": case "route_fx4":
             if (isPressed) {
                 print(chNum)
